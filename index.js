@@ -10,8 +10,8 @@ exports.doSQLQuery = (req, res) => {
 var connection = mysql.createConnection({
     host     : '35.226.239.197',
     database : 'kevin',
-    user     : 'root',
-    password : 'root',
+    user     : 'XXXX',
+    password : 'XXXX',
 });
 
 connection.connect(function(err) {
