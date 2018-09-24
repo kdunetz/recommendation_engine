@@ -8,7 +8,7 @@ exports.doSQLQuery = (req, res) => {
   let message = req.query.message || req.body.message || 'Hello World!';
  var mysql      = require('mysql');
 var connection = mysql.createConnection({
-    host     : '35.226.239.197',
+    host     : '35.226.239.XXX',
     database : 'kevin',
     user     : 'XXXX',
     password : 'XXXX',
